@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>my PLP learning journey</title>
+            <!-- Link to external CSS file -->
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <h1>Welcome to My PLP Journey</h1>
+            <h3>My Learning Path</h3>
+            <ol type="i" class="course-list">
+                <li>Software Engineering</li>
+                <li>Web Development</li>
+                <li>Python</li>
+                <li>Database</li>
+                <li>Startup Building</li>
+            </ol>
+            <h1>Learning Inspiration</h1>
+            <img class="content-image" src="learn python.jpg" alt="Person coding" width="450"height="350">
+            <img class="content-image" src="binary.png" alt="binary globe" width="450"height="350">
+            <img class="content-image" src="api.png" alt="api module" width="450"height="350">
+            <h1>My Peer Group</h1>
+            <table class="contact-table">
+                <caption>Study Group Contacts</caption>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Address</th>
+                            <th>Mobile</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alice Johnson</td>
+                            <td>123 Learning St</td>
+                            <td>+250 700 111 222</td>
+                            <td>alice@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Bob Mwangi</td>
+                            <td>456 Code Avenue</td>
+                            <td>+254 103 333444</td>
+                            <td>bob@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Carol Nyambura</td>
+                            <td>789 Web Road</td>
+                            <td>+254 103 555666</td>
+                            <td>carol@hotmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>David Omondi</td>
+                            <td>321 Tech Lane</td>
+                            <td>+264 700-777-888</td>
+                            <td>david@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Eve Alabi</td>
+                            <td>654 Digital Drive</td>
+                            <td>+234 800 999 0000</td>
+                            <td>eve@yahoo.com</td>
+                        </tr>
+                    </tbody>
+            </table>
+            <h1>PLP Resgistration Form</h1>
+            <form id="registration-form" action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="5">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"placeholder="student@plp.com" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Minimum 8 characters" required minlength="8" pattern="^(?=.*[A-Z])(?=.*\d).+$">
+                <br><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Rwanda">Rwanda</option>
+                </select>
+                <br><br>
+                <label for="enrollment">Enrollment Date:</label>
+                <input type="date" id="enrollment" name="enrollment"required min="2025-02-12" max="2025-06-31">
+                <br><br>
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Choose your speccialization</option>
+                    <option value="frontend">Mobile-Friendly with Dart</option>
+                    <option value="backend">Software Testing</option>
+                    <option value="fullstack">Full Stack Development(MERN)</option>
+                    <option value="fullstack">AI for Software Engineering</option>
+                </select>
+                <br><br>
+                <label>Preferred Learning Mode:</label>
+                <input type="radio" id="online" name="mode" value="online" required>
+                <label for="online">Online</label>
+
+                <input type="radio" id="hybrid" name="mode" value="hybrid">
+                <label for="hybrid">Hybrid</label>
+                <br><br>
+                <label>Additional Resources Needed:</label>
+                <input type="checkbox" id="mentor" name="resources" value="mentor">
+                <label for="mentor">Mentor Support</label>
+
+                <input type="checkbox" id="materials" name="resources" value="materials">
+                <label for="materials">Study Materials</label>
+
+                <input type="checkbox" id="materials" name="resources" value="materials">
+                <label for="materials">Peer to Peer</label>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="Cancel">
+            </form>
+        </body>
+    </html>
+
+
+
+
+
+
+
+
+
